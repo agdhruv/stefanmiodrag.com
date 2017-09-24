@@ -12,9 +12,9 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background: #f6f6f6;
+  background: #141414;
   font-family: "Helvetica-Neue", sans-serif;
-  color: #262626;
+  color: #6a6a6a;
   display: block;
   height: 100%; }
 
@@ -31,11 +31,11 @@ body {
 .container {
   width: 100%;
   max-width: 630px;
-  margin: 200px 15%; }
+  margin: 250px 15%; }
 
 h1 {
   font-family: "Helvetica-Medium", sans-serif;
-  color: #222;
+  color: #fff;
   font-weight: normal;
   font-size: 1.2rem; }
 
@@ -44,7 +44,10 @@ p {
   line-height: 1.75; }
 
 a {
-  color: inherit; }
+  color: inherit;
+  transition: 0.25s; }
+  a:hover {
+    color: #ff007a; }
 
 @media only screen and (max-width: 768px) {
   .container {
