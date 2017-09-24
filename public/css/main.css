@@ -33,7 +33,8 @@ body {
   width: 100%;
   max-width: 630px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 15%; }
 
 h1 {
   font-family: "Helvetica-Medium", sans-serif;
@@ -51,6 +52,7 @@ a {
   background: url("../assets/overlay.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 20rem;
-  width: 100%;
-  margin-top: 5%; }
+  background-size: 100%;
+  height: 10rem;
+  margin-top: 15%;
+  margin-bottom: 10%; }
