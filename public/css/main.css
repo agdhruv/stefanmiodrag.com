@@ -12,32 +12,29 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background: #ff2f35;
+  background: #f6f6f6;
   font-family: "Helvetica-Neue", sans-serif;
-  color: #fff;
-  background-image: url("../assets/background.png");
-  background-size: cover;
+  color: #262626;
   display: block;
   height: 100%; }
 
 ::selection {
   color: white;
-  background: #00a5ff; }
+  background: #ff00bf; }
 
 .content {
   width: 100%;
+  height: 1005;
   display: flex;
   align-items: center; }
 
 .container {
-  width: 100%;
   max-width: 630px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 15%; }
+  margin: 200px 15%; }
 
 h1 {
   font-family: "Helvetica-Medium", sans-serif;
+  color: #222;
   font-weight: normal;
   font-size: 1.2rem; }
 
@@ -47,15 +44,6 @@ p {
 
 a {
   color: inherit; }
-
-.overlay {
-  background: url("../assets/overlay.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  height: 10rem;
-  margin-top: 15%;
-  margin-bottom: 10%; }
 
 @media only screen and (max-width: 768px) {
   .container {
