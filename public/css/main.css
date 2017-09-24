@@ -20,7 +20,7 @@ body {
 
 ::selection {
   color: white;
-  background: #ff00bf; }
+  background: #ff007a; }
 
 .content {
   width: 100%;
@@ -48,4 +48,4 @@ a {
 
 @media only screen and (max-width: 768px) {
   .container {
-    margin: 100px 5%; } }
+    margin: 100px 2.5%; } }
