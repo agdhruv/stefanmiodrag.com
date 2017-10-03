@@ -85,10 +85,6 @@ p {
   padding: 3rem;
   flex: 1 auto;
 
-  &:last-child {
-    height: 50%;
-  }
-
   img {
     text-align: center;
     opacity: 0.6;
@@ -115,9 +111,28 @@ p {
   }
 }
 
-/*
-@media all and (max-width: 900px) {
+/* larger desktop */
+@media all and (min-width: 1160px) {
   .blocky {
-    border-right: none;
+
+    &:last-child {
+      height: 50%;
+    }
   }
-}*/
+}
+
+/* mobile */
+@media only screen and (max-width: 800px) {
+  .blocky {
+    padding: 1em;
+    width: 100%;
+
+    &:last-child {
+      height: 50%;
+    }
+
+    h4 {
+      margin-top: 0.1em;
+    }
+  }
+}
