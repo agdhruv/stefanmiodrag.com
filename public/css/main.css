@@ -103,8 +103,12 @@ a.disabled:hover {
   border: 1px solid #33313e;
   text-decoration: none;
   padding: 3rem; }
-  .blocky:last-child h4 {
-    margin-top: 0; }
+  .blocky:last-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .blocky:last-child h4 {
+      margin-top: 0em; }
   .blocky img {
     text-align: center;
     opacity: 0.6;
