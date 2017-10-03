@@ -57,6 +57,7 @@ a.disabled:hover {
   cursor: not-allowed; }
 
 .content {
+  overflow: hidden;
   text-align: left;
   max-width: 700px;
   margin: 0 auto;
@@ -65,7 +66,8 @@ a.disabled:hover {
   .content h2 {
     padding: 0.3em 0 0.3em 0;
     border-top: 2px solid #33313e;
-    border-bottom: 2px solid #33313e; }
+    border-bottom: 2px solid #33313e;
+    margin-top: 0.45em; }
 
 .container-row {
   width: 100%;
