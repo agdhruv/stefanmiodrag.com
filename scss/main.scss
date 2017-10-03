@@ -23,7 +23,6 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 
@@ -43,10 +42,6 @@ h2, h4 {
 
 h2 {
   font-size: 3.25em;
-/*
-  border-top: 2px solid #33313e;
-  */
-  border-bottom: 1px solid #19191c;
   padding: 0.285em 0 0.175em;
   margin-bottom: 0.75em;
   -webkit-margin-after: 0;
@@ -64,11 +59,20 @@ p {
   line-height: 1.7em;
 }
 
+a.disabled:hover {
+   cursor:not-allowed
+}
+
 .content {
   max-width: 700px;
   margin: 0 auto;
-  margin-bottom: 7em;
+  margin-bottom: 5em;
   margin-top: 5em;
+
+  h2 {
+    border-top: 2px solid #33313e;
+    border-bottom: 2px solid #33313e;
+  }
 }
 
 .container-row {
@@ -82,6 +86,7 @@ p {
 .blocky {
   width: 250px; height: 250px;
   border: 1px solid #33313e;
+  text-decoration: none;
   padding: 3rem;
   flex: 1 auto;
 
@@ -135,4 +140,6 @@ p {
       margin-top: 0.1em;
     }
   }
+
+/* more styling goes here */
 }
