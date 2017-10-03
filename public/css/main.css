@@ -6,6 +6,7 @@
   font-family: 'alternate-gothic';
   src: url("../assets/Alternate-Gothic-No2.ttf"); }
 
+/* blueberry */
 html,
 body {
   margin: 0;
@@ -22,6 +23,10 @@ body {
 
 a {
   color: inherit; }
+  a:hover {
+    color: #E70F6E;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease; }
 
 .container {
   width: 90%;
@@ -63,6 +68,9 @@ a.disabled:hover {
   margin: 0 auto;
   margin-bottom: 5em;
   margin-top: 5em; }
+  .content:first-child {
+    padding-bottom: 2em;
+    border-bottom: 2px solid #33313e; }
   .content h2 {
     padding: 0.3em 0 0.3em 0;
     border-top: 2px solid #33313e;
@@ -77,12 +85,12 @@ a.disabled:hover {
   justify-content: center; }
 
 .blocky {
+  flex: 1 auto;
   width: 250px;
   height: 250px;
   border: 1px solid #33313e;
   text-decoration: none;
-  padding: 3rem;
-  flex: 1 auto; }
+  padding: 3rem; }
   .blocky:last-child h4 {
     margin-top: 0; }
   .blocky img {
@@ -93,7 +101,7 @@ a.disabled:hover {
   .blocky h4 {
     margin-top: 0.5em; }
   .blocky:hover {
-    background: #93489B;
+    background: #5b24e2;
     -webkit-transition: 400ms ease;
     transition: 400ms ease; }
     .blocky:hover > h4, .blocky:hover em {
@@ -101,8 +109,9 @@ a.disabled:hover {
     .blocky:hover > img {
       opacity: 0.8; }
 
-/* larger desktop */
-@media all and (min-width: 1160px) {
+/* large desktops */
+/* small desktops (macbook air) */
+@media (min-width: 1160px) and (max-width: 1550px) {
   .blocky:last-child {
     height: 50%; } }
 

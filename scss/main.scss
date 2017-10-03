@@ -4,7 +4,7 @@
 
 $primary-background: #13111C;
 $primary-color: #727080;
-
+$accent-color: #5b24e2; /* blueberry */
 
 html,
 body {
@@ -24,6 +24,12 @@ body {
 
 a {
   color: inherit;
+
+  &:hover {
+    color: #E70F6E;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
 }
 
 .container {
@@ -73,6 +79,11 @@ a.disabled:hover {
   margin-bottom: 5em;
   margin-top: 5em;
 
+  &:first-child {
+    padding-bottom: 2em;
+    border-bottom: 2px solid #33313e;
+  }
+
   h2 {
     padding: 0.3em 0 0.3em 0;
     border-top: 2px solid #33313e;
@@ -90,11 +101,11 @@ a.disabled:hover {
 }
 
 .blocky {
+  flex: 1 auto;
   width: 250px; height: 250px;
   border: 1px solid #33313e;
   text-decoration: none;
   padding: 3rem;
-  flex: 1 auto;
 
   &:last-child {
     h4 {
@@ -114,7 +125,7 @@ a.disabled:hover {
   }
 
   &:hover {
-    background: #93489B;
+    background: $accent-color;
     -webkit-transition: 400ms ease;
     transition: 400ms ease;
 
@@ -128,8 +139,19 @@ a.disabled:hover {
   }
 }
 
-/* larger desktop */
-@media all and (min-width: 1160px) {
+
+/* large desktops */
+@media only screen and (min-width: 1160px) {
+  .blocky {
+
+    &:last-child {
+
+    }
+  }
+}
+
+/* small desktops (macbook air) */
+@media (min-width: 1160px) and (max-width: 1550px) {
   .blocky {
 
     &:last-child {
