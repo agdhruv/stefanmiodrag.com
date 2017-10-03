@@ -43,12 +43,13 @@ h2, h4 {
 
 h2 {
   font-size: 3.25em;
-/* add or not?
-  border-top: 2px solid #c9c9c9;
-  border-bottom: 2px solid #c9c9c9;
-*/
+/*
+  border-top: 2px solid #33313e;
+  */
+  border-bottom: 1px solid #19191c;
   padding: 0.285em 0 0.175em;
   margin-bottom: 0.75em;
+  -webkit-margin-after: 0;
   margin-top: 1em;
 }
 
@@ -79,32 +80,44 @@ p {
 }
 
 .blocky {
-  width: 450px; height: 250px;
-  border-right: 2px solid #A1A0A4;
-  border-bottom: 2px solid #A1A0A4;
+  width: 250px; height: 250px;
+  border: 1px solid #33313e;
   padding: 3rem;
+  flex: 1 auto;
 
-  &:nth-child(even) {
-    border-right: none;
+  &:last-child {
+    height: 50%;
   }
 
   img {
-    overflow: visible;
-    margin: 0 auto;
+    text-align: center;
     opacity: 0.6;
     max-width: 9em;
-    margin-top: 2em;
+    margin-top: 2.5em;
+  }
 
+  h4 {
+    margin-top: 0.5em;
   }
 
   &:hover {
     background: #93489B;
-    -webkit-transition: 300ms linear;
-    transition: 300ms linear;
+    -webkit-transition: 400ms ease;
+    transition: 400ms ease;
 
-    & > h4,em,img {
+    & > h4,em {
       color: #fff;
-      opacity: 100;
     }
+    & > img {
+      opacity: 0.8;
+    }
+
   }
 }
+
+/*
+@media all and (max-width: 900px) {
+  .blocky {
+    border-right: none;
+  }
+}*/
