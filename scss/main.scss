@@ -126,7 +126,7 @@ a.disabled:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
     h4 {
       margin-top: 0em;
 
@@ -193,6 +193,12 @@ a.disabled:hover {
       padding-left: 0.5em;
     }
   }
+}
+
+footer {
+  border-top: 2px solid #33313e;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 
