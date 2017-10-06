@@ -30,7 +30,7 @@ a {
   color: inherit;
 
   &:hover {
-    color: #E70F6E;
+    color: $strong-color;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
