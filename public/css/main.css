@@ -27,7 +27,7 @@ body {
 a {
   color: inherit; }
   a:hover {
-    color: #fff;
+    color: #231f20;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
@@ -155,7 +155,7 @@ a.disabled:hover {
     padding-left: 0.5em; }
 
 footer {
-  border-top: 2px solid #7543bd;
+  border-top: 2px solid #dadada;
   padding-top: 5em;
   padding-bottom: 5em; }
 
