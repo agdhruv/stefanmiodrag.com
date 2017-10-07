@@ -11,16 +11,16 @@
 /* blueberry */
 html,
 body {
-  border: 10px solid #090113;
+  border: 10px solid #000;
   margin: 0;
   padding: 0;
-  background: #50248F; }
+  background: #fff; }
 
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-align: center;
-  color: #caa4fc;
+  color: #818181;
   font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
   font-style: normal; }
 
@@ -37,7 +37,7 @@ a {
   max-width: 1420px; }
 
 h2, h3, h4 {
-  color: #fff;
+  color: #231f20;
   text-transform: uppercase;
   font-family: "alternate-gothic", sans-serif;
   font-weight: normal;
@@ -85,11 +85,11 @@ a.disabled:hover {
   margin-top: 5em; }
   .content:first-child {
     padding-bottom: 2em;
-    border-bottom: 2px solid #7543bd; }
+    border-bottom: 2px solid #dadada; }
   .content h2 {
     padding: 0.3em 0 0.3em 0;
-    border-top: 2px solid #7543bd;
-    border-bottom: 2px solid #7543bd;
+    border-top: 2px solid #dadada;
+    border-bottom: 2px solid #dadada;
     margin-top: 0.45em; }
 
 .container-row {
@@ -103,7 +103,7 @@ a.disabled:hover {
   flex: 1 auto;
   width: 250px;
   height: 250px;
-  border: 1px solid #7543bd;
+  border: 1px solid #dadada;
   text-decoration: none;
   padding: 3rem; }
   .blocky:last-child {
@@ -114,19 +114,19 @@ a.disabled:hover {
       margin-top: 0em; }
   .blocky img {
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.5;
     max-width: 9em;
     margin-top: 2.5em; }
   .blocky h4 {
     margin-top: 0.5em; }
   .blocky:hover {
-    background: #230051;
+    background: #41A9F5;
     -webkit-transition: 400ms ease;
     transition: 400ms ease; }
     .blocky:hover > h4, .blocky:hover em {
       color: #fff; }
     .blocky:hover > img {
-      opacity: 100; }
+      opacity: 0.7; }
 
 .side-projects .content {
   margin-top: 0.75em; }
@@ -136,12 +136,12 @@ a.disabled:hover {
 
 .side-projects h2 {
   padding: 0.75em 0 0.75em 0;
-  border-bottom: 2px solid #7543bd;
-  border-top: 2px solid #7543bd; }
+  border-bottom: 2px solid #dadada;
+  border-top: 2px solid #dadada; }
 
 .side-projects li {
   padding-bottom: 2em;
-  border-bottom: 2px solid #7543bd; }
+  border-bottom: 2px solid #dadada; }
 
 .side-projects a {
   display: block;
