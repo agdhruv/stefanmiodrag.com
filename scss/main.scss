@@ -2,16 +2,16 @@
 @font-face {font-family: 'alternate-gothic'; src:url('../assets/Alternate-Gothic-No2.ttf')}
 
 /* background */
-$primary-background: #50248F;
+$primary-background: #fff;
 /* colors */
-$primary-color: #caa4fc;
-$strong-color: #fff;
-$border-color: #7543bd;
-$accent-color: #230051; /* blueberry */
+$primary-color: #818181;
+$strong-color: #231f20;
+$border-color: #dadada;
+$accent-color: #41A9F5; /* blueberry */
 
 html,
 body {
-  border: 10px solid #090113;
+  border: 10px solid #000;
   margin: 0;
   padding: 0;
   background: $primary-background;
@@ -139,7 +139,7 @@ a.disabled:hover {
 
   img {
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.5;
     max-width: 9em;
     margin-top: 2.5em;
   }
@@ -157,7 +157,7 @@ a.disabled:hover {
       color: #fff;
     }
     & > img {
-      opacity: 100;
+      opacity: 0.7;
     }
 
   }

@@ -1,7 +1,7 @@
 <svg height="auto" width="35px" viewBox="0 0 14 30" xmlns="http://www.w3.org/2000/svg">
 					<g fill="none" fill-rule="evenodd">
-						<path class="logo-top" fill="#fff" d="M0 0h14v7H7"></path>
-						<path class="logo-middle" fill="#fff" d="M0 7h7l7 7H0"></path>
-						<path class="logo-bottom" fill="#fff" d="M0 14h7v7"></path>
+						<path class="logo-top" fill="#000" d="M0 0h14v7H7"></path>
+						<path class="logo-middle" fill="#000" d="M0 7h7l7 7H0"></path>
+						<path class="logo-bottom" fill="#000" d="M0 14h7v7"></path>
 					</g>
 				</svg>
