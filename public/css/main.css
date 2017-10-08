@@ -16,14 +16,14 @@ body {
 
 body {
   text-align: center;
-  color: #616161;
+  color: #666;
   font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
   font-style: normal; }
 
 a {
   color: inherit; }
   a:hover {
-    color: #41A9F5;
+    color: #5b24e2;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
