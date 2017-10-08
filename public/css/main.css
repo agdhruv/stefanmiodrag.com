@@ -11,16 +11,12 @@
 /* blueberry */
 html,
 body {
-  border: 10px solid #000;
   margin: 0;
-  padding: 0;
-  background: #fff; }
+  padding: 0; }
 
 body {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   text-align: center;
-  color: #818181;
+  color: #616161;
   font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
   font-style: normal; }
 
@@ -31,13 +27,33 @@ a {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
-.container {
-  width: 90%;
+.fixed {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif");
+  /* fallback for old browsers */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -100;
+  top: 0; }
+
+.background-container {
+  background: #fff;
   margin: 0 auto;
-  max-width: 1420px; }
+  width: 90vw;
+  height: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 20px solid #000; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%; }
 
 h2, h3, h4 {
-  color: #231f20;
+  color: #111;
   text-transform: uppercase;
   font-family: "alternate-gothic", sans-serif;
   font-weight: normal;
@@ -114,13 +130,13 @@ a.disabled:hover {
       margin-top: 0em; }
   .blocky img {
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.3;
     max-width: 9em;
     margin-top: 2.5em; }
   .blocky h4 {
     margin-top: 0.5em; }
   .blocky:hover {
-    background: #41A9F5;
+    background: #5b24e2;
     -webkit-transition: 400ms ease;
     transition: 400ms ease; }
     .blocky:hover > h4, .blocky:hover em {
@@ -176,4 +192,11 @@ footer {
         display: none; }
     .blocky h4 {
       margin-top: 0.1em; }
+  .fixed {
+    display: none; }
+  .background-container {
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0; }
   /* more styling goes here */ }
