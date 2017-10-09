@@ -95,9 +95,10 @@ p {
   position: fixed;
   z-index: -100;
   top: 0;
-  background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: linear-gradient(45deg, #f44336, #e91e63, #9c27b0, #673ab7, #3f51b5, #009688, #8bc34a, #ff9800, #ff5722, #009688) no-repeat;
+  background-size: 500% 500%;
+  -webkit-animation: backgroundColour 20s ease infinite;
+  animation: backgroundColour 20s ease infinite;
   height: 100vh;
   width: 100vw;
 }
@@ -287,4 +288,24 @@ footer {
   }
 
 /* more styling goes here */
+}
+
+// BACKGROUND COLOUR ANIMATION
+
+@-webkit-keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+@keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
 }
