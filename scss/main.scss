@@ -34,7 +34,7 @@ a {
   color: inherit;
 
   &:hover {
-    color: #E70F6E;
+    color: $accent-color;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
@@ -226,6 +226,13 @@ p {
     }
   }
 }
+
+footer {
+  border-top: 2px solid $border-color;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 
 // MEDIA QUERIES
 // ============================================

@@ -14,14 +14,14 @@ body {
 
 body {
   text-align: center;
-  color: #616161;
+  color: #666;
   font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
   font-style: normal; }
 
 a {
   color: inherit; }
   a:hover {
-    color: #E70F6E;
+    color: #5b24e2;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
@@ -166,6 +166,11 @@ p {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
     padding-left: 0.5em; }
+
+footer {
+  border-top: 2px solid #dadada;
+  padding-top: 5em;
+  padding-bottom: 5em; }
 
 /* large desktops */
 /* small desktops (macbook air) */
