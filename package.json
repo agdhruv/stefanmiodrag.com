@@ -1,17 +1,24 @@
 {
   "name": "experiment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Source code for [my personal site](http://www.stefanmiodrag.com/), built using plain HTML and (S)CSS.",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass --include-path scss scss/main.scss   public/css/main.css",
-    "watch": "nodemon -e scss -x \"npm run build\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch scss -o css"
   },
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.5.3",
     "nodemon": "^1.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanmiodrag/stefanmiodrag.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanmiodrag/stefanmiodrag.com/issues"
+  },
+  "homepage": "https://github.com/stefanmiodrag/stefanmiodrag.com#readme"
 }
