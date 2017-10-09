@@ -2,15 +2,12 @@ Source code for [my personal site](http://www.stefanmiodrag.com/), built using p
 
 ## Install
 
-[𝗫] Not vital
-[△] Depends
-[✓] Necessary
-
 This project uses the following dependencies:<br/>
-[𝗫] [Laravel Valet](https://laravel.com/docs/5.5/valet#installation)<br/>
-[✓] [npm.js](https://www.npmjs.com/get-npm)<br/>
-[△] [Ruby](https://www.ruby-lang.org/en/downloads/)<br/>
-[✓] [Sass](http://sass-lang.com/)<br/>
+[Valet](https://laravel.com/docs/5.5/valet#installation)<br/>
+[Ruby](https://www.ruby-lang.org/en/downloads/)<br/>
+[npm.js](https://www.npmjs.com/get-npm)<br/>
+[Sass](http://sass-lang.com/)<br/>
+
 
 ## Usage
 
