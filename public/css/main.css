@@ -6,9 +6,7 @@
   font-family: 'alternate-gothic';
   src: url("../assets/Alternate-Gothic-No2.ttf"); }
 
-/* background */
-/* colors */
-/* blueberry */
+/* titles */
 html,
 body {
   margin: 0;
@@ -27,30 +25,15 @@ a {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
-.fixed {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif");
-  /* fallback for old browsers */
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  z-index: -100;
-  top: 0; }
+ul {
+  padding: 0;
+  margin: 0; }
 
-.background-container {
-  background: #fff;
-  margin: 0 auto;
-  width: 90vw;
-  height: 100%;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  border: 20px solid #000; }
+li {
+  list-style: none; }
 
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 90%; }
+a.disabled:hover {
+  cursor: not-allowed; }
 
 h2, h3, h4 {
   color: #111;
@@ -82,15 +65,29 @@ p {
   font-size: 1.35em;
   line-height: 1.7em; }
 
-ul {
-  padding: 0;
-  margin: 0; }
+.fixed {
+  position: fixed;
+  z-index: -100;
+  top: 0;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
 
-li {
-  list-style: none; }
+.background-container {
+  background: #fff;
+  margin: 0 auto;
+  width: 90vw;
+  height: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 20px solid #000; }
 
-a.disabled:hover {
-  cursor: not-allowed; }
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%; }
 
 .content {
   overflow: hidden;
