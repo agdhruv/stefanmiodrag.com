@@ -1,13 +1,21 @@
+
+// SETTINGS MANAGMENT
+// ============================================
+
 @font-face {font-family: 'aktiv-grotesk'; src:url('../assets/AktivGrotesk.ttf')}
 @font-face {font-family: 'alternate-gothic'; src:url('../assets/Alternate-Gothic-No2.ttf')}
 
-/* background */
 $primary-background: #2f195a;
-/* colors */
-$primary-color: #666;
-$strong-color: #111;
+
+$primary-color: #616161;
+$strong-color: #111; /* titles */
+
 $border-color: #dadada;
-$accent-color: #5b24e2; /* blueberry */
+$accent-color: #5b24e2;
+
+
+// DEFAULT STYLES
+// ============================================
 
 html,
 body {
@@ -32,31 +40,17 @@ a {
   }
 }
 
-.fixed {
-  height: 100vh;
-  width: 100vw;
-  background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif');  /* fallback for old browsers */
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  z-index: -100;
-  top: 0;
+ul {
+  padding: 0;
+  margin: 0;
 }
 
-.background-container {
-  background: #fff;
-  margin: 0 auto;
-  width: 90vw;
-  height: 100%;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  border: 20px solid #000;
+li {
+  list-style: none;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 90%;
+a.disabled:hover {
+   cursor:not-allowed
 }
 
 h2, h3, h4 {
@@ -94,17 +88,34 @@ p {
   line-height: 1.7em;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
+// ELEMENTS
+// ============================================
+
+.fixed {
+  position: fixed;
+  z-index: -100;
+  top: 0;
+  background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/7099fc28008799.56e41b31e770e.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
-li {
-  list-style: none;
+.background-container {
+  background: #fff;
+  margin: 0 auto;
+  width: 90vw;
+  height: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 20px solid #000;
 }
 
-a.disabled:hover {
-   cursor:not-allowed
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
 }
 
 .content {
@@ -222,6 +233,9 @@ footer {
   padding-bottom: 5em;
 }
 
+
+// MEDIA QUERIES
+// ============================================
 
 /* large desktops */
 @media only screen and (min-width: 1160px) {
