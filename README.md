@@ -2,11 +2,9 @@ Source code for [my personal site](http://www.stefanmiodrag.com/), built using p
 
 ## Install
 
-This project uses the following dependencies:<br/>
-[Valet](https://laravel.com/docs/5.5/valet#installation)<br/>
-[Ruby](https://www.ruby-lang.org/en/downloads/)<br/>
-[npm.js](https://www.npmjs.com/get-npm)<br/>
-[Sass](http://sass-lang.com/)<br/>
+This project uses the following dependencies:
+
+[Valet](https://laravel.com/docs/5.5/valet#installation)⌇[Ruby](https://www.ruby-lang.org/en/downloads/)⌇[npm.js](https://www.npmjs.com/get-npm)⌇[Sass](http://sass-lang.com/)
 
 
 ## Usage
