@@ -14,9 +14,8 @@ body {
 
 body {
   text-align: center;
-  color: #616161;
-  font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
-  font-style: normal; }
+  color: #666;
+  font: 100%/1.5 "aktiv-grotesk", sans-serif; }
 
 a {
   color: inherit; }

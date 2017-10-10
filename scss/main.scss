@@ -5,9 +5,9 @@
 @font-face {font-family: 'aktiv-grotesk'; src:url('../assets/AktivGrotesk.ttf')}
 @font-face {font-family: 'alternate-gothic'; src:url('../assets/Alternate-Gothic-No2.ttf')}
 
-$primary-background: #2f195a;
+$primary-background: #fff;
 
-$primary-color: #616161;
+$primary-color: #666;
 $strong-color: #111; /* titles */
 
 $border-color: #dadada;
@@ -26,8 +26,7 @@ body {
 body {
   text-align: center;
   color: $primary-color;
-  font: normal 100%/1.5 "aktiv-grotesk", sans-serif;
-  font-style: normal;
+  font: 100%/1.5 "aktiv-grotesk", sans-serif;
 }
 
 a {
@@ -104,7 +103,7 @@ p {
 }
 
 .background-container {
-  background: #fff;
+  background: $primary-background;
   margin: 0 auto;
   width: 90vw;
   height: 100%;
