@@ -11,7 +11,7 @@ $primary-color: #666;
 $strong-color: #111; /* titles */
 
 $border-color: #dadada;
-$accent-color: #5b24e2;
+$accent-color: #3f51b5;
 
 
 // DEFAULT STYLES
@@ -178,8 +178,8 @@ p {
 
   &:hover {
     background: $accent-color;
-    -webkit-transition: 400ms ease;
-    transition: 400ms ease;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
 
     & > h4,em {
       color: #fff;

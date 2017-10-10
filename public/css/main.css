@@ -20,7 +20,7 @@ body {
 a {
   color: inherit; }
   a:hover {
-    color: #5b24e2;
+    color: #3f51b5;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease; }
 
@@ -133,9 +133,9 @@ p {
   .blocky h4 {
     margin-top: 0.5em; }
   .blocky:hover {
-    background: #5b24e2;
-    -webkit-transition: 400ms ease;
-    transition: 400ms ease; }
+    background: #3f51b5;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out; }
     .blocky:hover > h4, .blocky:hover em {
       color: #fff; }
     .blocky:hover > img {
