@@ -16,7 +16,7 @@ $ git clone https://github.com/stefanmiodrag/stefanmiodrag.com.git
 
 If you're using Laravel Valet as your development environment, make sure that the downloaded repository is in your serving sites  directory.
 
-Run the following commands to auto refresh any changes made to `.scss` files in the `/scss` directory. 
+Run the following commands to auto refresh any changes made to `.scss` files in the `/scss` directory.
 ```sh
 $ cd <sites directory>
 # navigate to /sites directory
@@ -25,4 +25,4 @@ $ npm run watch
 # generated .css files will be located in the /css directory
 ```
 
-By default, Valet serves your projects using the `.dev` extension. Open `stefanmiodrag.com[.dev]` on your browser to visit the site.
+By default, Valet serves your projects using the `.dev` extension. To visit the site, head to `stefanmiodrag.com[.dev]`.
