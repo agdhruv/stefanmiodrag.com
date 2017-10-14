@@ -87,6 +87,28 @@ p {
   line-height: 1.7em;
 }
 
+// EFFECTS
+// ============================================
+
+@-webkit-keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+@keyframes backgroundColour {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+
 // ELEMENTS
 // ============================================
 
@@ -238,17 +260,7 @@ footer {
 // ============================================
 
 /* large desktops */
-@media only screen and (min-width: 1160px) {
-  .blocky {
-
-    &:last-child {
-
-    }
-  }
-}
-
-/* small desktops (macbook air) */
-@media (min-width: 1160px) and (max-width: 1550px) {
+@media only screen and (min-width: 1300px) {
   .blocky {
 
     &:last-child {
@@ -274,11 +286,12 @@ footer {
     h4 {
       margin-top: 0.1em;
     }
-
   }
+
   .fixed {
     display: none;
   }
+
   .background-container {
     border: none;
     width: 100%;
@@ -287,24 +300,4 @@ footer {
   }
 
 /* more styling goes here */
-}
-
-// BACKGROUND COLOUR ANIMATION
-
-@-webkit-keyframes backgroundColour {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
-}
-
-@-moz-keyframes backgroundColour {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
-}
-
-@keyframes backgroundColour {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
 }

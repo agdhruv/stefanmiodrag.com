@@ -64,6 +64,30 @@ p {
   font-size: 1.35em;
   line-height: 1.7em; }
 
+@-webkit-keyframes backgroundColour {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes backgroundColour {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes backgroundColour {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 .fixed {
   position: fixed;
   z-index: -100;
@@ -173,8 +197,7 @@ footer {
   padding-bottom: 5em; }
 
 /* large desktops */
-/* small desktops (macbook air) */
-@media (min-width: 1160px) and (max-width: 1550px) {
+@media only screen and (min-width: 1300px) {
   .blocky:last-child {
     height: 50%; } }
 
@@ -197,27 +220,3 @@ footer {
     margin-top: 0;
     margin-bottom: 0; }
   /* more styling goes here */ }
-
-@-webkit-keyframes backgroundColour {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@-moz-keyframes backgroundColour {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@keyframes backgroundColour {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
