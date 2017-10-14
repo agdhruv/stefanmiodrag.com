@@ -9,7 +9,7 @@ This project uses the following dependencies:
 
 ## Usage
 
-Once the dependencies have been downloaded, you may download this repository. Alternatively, you may clone this repository using the following command.
+Once the dependencies have been downloaded, you may download this repository. Alternatively, you can clone this repository using the following command:
 ```sh
 $ git clone https://github.com/stefanmiodrag/stefanmiodrag.com.git
 ```
@@ -25,4 +25,4 @@ $ npm run watch
 # generated .css files will be located in the /css directory
 ```
 
-By default, Valet serves your projects using the `.dev` extension. To visit the site, head to `stefanmiodrag.com[.dev]` in your browser.
+By default, Valet serves your projects using the `.dev` extension. To visit the site, head to `stefanmiodrag.com[.dev]`.
