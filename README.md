@@ -21,6 +21,8 @@ Run the following commands to auto refresh any changes made to `.scss` files in 
 ```sh
 $ cd <sites directory>
 # navigate to /sites directory
+$ npm install
+# install node dependencies from `package.json`
 $ npm run watch
 # auto refreshes any changes made to .scss files in the /scss directory
 # generated .css files will be located in the /css directory
