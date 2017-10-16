@@ -9,9 +9,7 @@
   },
   "author": "stefanmiodrag",
   "license": "ISC",
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stefanmiodrag/stefanmiodrag.com.git"
@@ -19,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/stefanmiodrag/stefanmiodrag.com/issues"
   },
-  "homepage": "https://github.com/stefanmiodrag/stefanmiodrag.com#readme"
+  "homepage": "https://github.com/stefanmiodrag/stefanmiodrag.com#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
 }
