@@ -4,9 +4,9 @@ Source code for [my personal site](http://www.stefanmiodrag.com/), built using p
 
 This project uses the following dependencies:
 
-[Valet*](https://laravel.com/docs/5.5/valet#installation)⌇[Ruby](https://www.ruby-lang.org/en/downloads/)⌇[Node.js](https://nodejs.org/en/download/)⌇[Sass](http://sass-lang.com/)
+[Valet\*](https://laravel.com/docs/5.5/valet#installation)⌇[Ruby](https://www.ruby-lang.org/en/downloads/)⌇[Node.js](https://nodejs.org/en/download/)⌇[Sass](http://sass-lang.com/)
 
-*Optional development enviroment
+\*Optional development enviroment
 
 ## Usage
 
