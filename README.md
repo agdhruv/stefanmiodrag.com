@@ -4,9 +4,9 @@ Source code for [my personal site](http://www.stefanmiodrag.com/), built using p
 
 This project uses the following dependencies:
 
-[Valet*](https://laravel.com/docs/5.5/valet#installation)⌇[Ruby](https://www.ruby-lang.org/en/downloads/)⌇[Node.js](https://nodejs.org/en/download/)⌇[Sass](http://sass-lang.com/)
+[Valet\*](https://laravel.com/docs/5.5/valet#installation)⌇[Ruby](https://www.ruby-lang.org/en/downloads/)⌇[Node.js](https://nodejs.org/en/download/)⌇[Sass](http://sass-lang.com/)
 
-*Optional development enviroment
+\*Optional development enviroment
 
 ## Usage
 
@@ -21,6 +21,8 @@ Run the following commands to auto refresh any changes made to `.scss` files in 
 ```sh
 $ cd <sites directory>
 # navigate to /sites directory
+$ npm install
+# install node dependencies from `package.json`
 $ npm run watch
 # auto refreshes any changes made to .scss files in the /scss directory
 # generated .css files will be located in the /css directory
